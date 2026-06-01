@@ -35,9 +35,9 @@ CREATE TABLE IF NOT EXISTS posts (
     cover TEXT DEFAULT '',
     series TEXT DEFAULT '默认系列',
     layout_mode TEXT DEFAULT 'standard',
-    status TEXT DEFAULT 'publish',   -- 默认状态：公开发布 (publish) / 隐藏 (draft)
-    weight INTEGER DEFAULT 0,        -- 默认物理排序权重 (数字越大越靠前)
-    views INTEGER DEFAULT 0          -- 默认阅读量
+    status TEXT DEFAULT 'publish',
+    weight INTEGER DEFAULT 0,
+    views INTEGER DEFAULT 0
 );
 ```
 
